@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://duw04c1jnmn4h"
+path="res://.godot/imported/cena1intro.dialogue-5d879a16a7c451885e4954e854eeb54b.tres"
+
+[deps]
+
+source_file="res://backgrounds/cena1intro.dialogue"
+dest_files=["res://.godot/imported/cena1intro.dialogue-5d879a16a7c451885e4954e854eeb54b.tres"]
+
+[params]
+
+defaults=true

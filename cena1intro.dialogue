@@ -1,0 +1,285 @@
+━━━━━━━━ INTRO ━━━━━━━━
+
+~ introducao
+
+do Game.set_character("res://personagens/mina/minanormal.png")
+
+
+Narrador: A detetive Mina precisa de férias...
+
+do Game.set_bg("res://backgrounds/mansao_abertura2teste.png")
+
+Narrador: A mansão é grande. Os policiais começam a vasculhar cada canto.
+
+Narrador: Viaturas e peritos chegam ao local.
+
+do Game.set_bg("res://backgrounds/mansao_abertura3teste.png")
+
+Narrador: Ela se aproxima da vítima, estirada no meio da sala...
+
+Narrador: [ ILUSTRAÇÃO DA CENA DO CRIME ]
+
+Haeun: Quem fez isso com o meu marido...?
+
+Narrador: [ NOTÍCIA NO JORNAL APARECE ]
+
+Narrador: [ PAINEL DO CRIME ]
+
+Narrador: Mina tem alguns suspeitos.
+
+- Ver suspeitos => suspeitos
+
+
+━━━━━━━━ SUSPEITOS ━━━━━━━━
+
+~ suspeitos
+
+Narrador: LISTA DE SUSPEITOS
+
+Narrador: Haeun
+Narrador: ESPOSA, HAEUN, 35 ANOS
+
+Narrador: — Estilista renomada
+Narrador: — Um pouco fria
+Narrador: — Ficou com a fortuna
+Narrador: — Limpa o rosto com lencinho
+
+Narrador: Irin
+Narrador: AMANTE, IRIN, 25 ANOS
+
+Narrador: — Modelo
+Narrador: — Espirituosa
+Narrador: — Claramente afetada
+Narrador: — Segura vinho e treme
+
+Narrador: Marisa
+Narrador: EMPREGADA, MARISA, 54 ANOS
+
+Narrador: — Empregada
+Narrador: — Engraçada
+Narrador: — Boazinha
+Narrador: — Usa avental
+
+=> interrogatorio
+
+
+━━━━━━━━ INTERROGATÓRIO ━━━━━━━━
+
+~ interrogatorio
+
+Mina: Quem deseja interrogar primeiro?
+
+- Haeun => interrogatorio_haeun
+- Irin => interrogatorio_irin
+- Marisa => interrogatorio_marisa
+
+
+━━━━━━━━ HAEUN ━━━━━━━━
+
+~ interrogatorio_haeun
+
+do Game.set_bg("res://backgrounds/mansao_salateste.png")
+
+Narrador: SALA DA MANSÃO
+
+Haeun: Meu marido tinha muitos inimigos!
+
+Mina: Todo bilionário podre de rico tem muitos inimigos, senhora...
+
+Mina: Isso não diz nada a respeito, aliás.
+
+Mina: Onde a senhora esteve hoje pela manhã?
+
+Haeun: Estava com minhas amigas, do clube do livro.
+
+Mina: Qual era o horário da reunião?
+
+Haeun: Até às cinco e meia.
+
+Mina: Mas seu marido foi morto há duas horas, pelas 18:38.
+
+Mina: O que, em tese, daria tempo suficiente para a senhora matá-lo.
+
+Haeun: Hoje o trânsito estava impossível!
+
+Mina: Em oito minutos seria plenamente possível.
+
+Mina: Mesmo com o trânsito apertado.
+
+Mina: O clube ficava há quinze minutos da mansão.
+
+Haeun: Demoramos um pouco na reunião...
+
+Mina: Certo, senhora Han.
+
+=> interrogatorio
+
+
+━━━━━━━━ IRIN ━━━━━━━━
+
+~ interrogatorio_irin
+
+do Game.set_bg("res://backgrounds/mansao_saladejantarteste.png")
+
+Narrador: SALA DE JANTAR DA MANSÃO
+
+Irin: Mesmo não ficando com nada, eu amava ele mais que ela...
+
+Mina: Para de mentir, você amava o dinheiro dele!
+
+Irin: Não faça acusações, não fiquei com nada!
+
+Mina: Você esperava ficar com alguma coisa?
+
+Mina: Ele te contou que você ficaria com algo?
+
+Irin: Estou grávida, ele deveria ter consideração pelo filho que carrego no ventre!
+
+Mina: Ah é? E tá tomando vinho estando grávida?
+
+Irin: Só um pouquinho pode!
+
+Mina: Bem interessante, Irin.
+
+Irin: Detetive...
+
+Mina: Não precisa mentir... Eu já entendi.
+
+Irin: Entendeu... o quê?
+
+Mina: Não se preocupe.
+
+Narrador: [ ANOTAÇÃO DE MINA ]
+
+Narrador: — Irin diz estar grávida
+Narrador: — Está bebendo vinho
+Narrador: — Nervosa demais
+Narrador: — Mentiu?
+
+=> interrogatorio
+
+
+━━━━━━━━ MARISA ━━━━━━━━
+
+~ interrogatorio_marisa
+
+do Game.set_bg("res://backgrounds/mansao_cozinhateste.png")
+
+Narrador: COZINHA DA MANSÃO
+
+Marisa: Coitadinho do senhor Han...
+
+Mina: É um saco trabalhar na casa dessas pessoas, fala a verdade!
+
+Marisa: Ele não merecia um fim desses...
+
+Mina: Quem você acha que é?
+
+Marisa: A amante?
+
+Mina: Ela está bêbada demais pra não confessar.
+
+Narrador: Mina se inclina na mesa e encara Marisa.
+
+Marisa: Coitado...
+
+Mina: Onde a senhora escondeu a faca?
+
+Marisa: HUM!?
+
+Mina: Onde você jogou o lixo, senhora?
+
+Narrador: Mina retorna à sala.
+
+Narrador: Mina percebe o batom.
+
+Narrador: Decide investigar o escritório.
+
+=> investigacao
+
+
+━━━━━━━━ INVESTIGAÇÃO ━━━━━━━━
+
+~ investigacao
+
+do Game.set_bg("res://backgrounds/mansao_escritorioteste.png")
+
+Narrador: INVESTIGANDO A CENA DO CRIME...
+
+Narrador: QUEM MATOU?
+
+=> escolha
+
+
+━━━━━━━━ ESCOLHA FINAL ━━━━━━━━
+
+~ escolha
+
+Mina: Agora devemos escolher um suspeito.
+
+- Haeun => final_haeun
+- Irin => final_irin
+- Marisa => final_marisa
+
+
+━━━━━━━━ FINAL HAEUN ━━━━━━━━
+
+~ final_haeun
+
+Narrador: A esposa chegou e viu Han junto com a amante.
+
+Narrador: Eles discutiram no escritório.
+
+Narrador: Quando percebeu que a amante estava grávida, ela o matou.
+
+Narrador: Para evitar escândalo, Marisa escondeu a faca.
+
+Narrador: O caso é dado para outro detetive.
+
+Narrador: Mina perde credibilidade.
+
+Narrador: Haeun não era a assassina.
+
+=> END
+
+
+━━━━━━━━ FINAL IRIN ━━━━━━━━
+
+~ final_irin
+
+Narrador: Irin mentiu sobre a gravidez para pressionar Han.
+
+Narrador: Eles discutiram no escritório.
+
+Narrador: Quando percebeu que não ficaria com nada da fortuna, ela o matou.
+
+Narrador: Para evitar escândalo, Marisa escondeu a faca.
+
+Narrador: Caso encerrado.
+
+Narrador: Mina ganha um bônus.
+
+Narrador: Irin era a assassina.
+
+=> END
+
+
+━━━━━━━━ FINAL MARISA ━━━━━━━━
+
+~ final_marisa
+
+Narrador: Marisa seria demitida naquele dia.
+
+Narrador: Eles discutiram no escritório.
+
+Narrador: Quando percebeu que seria demitida, ela o matou.
+
+Narrador: Para evitar escândalo, Marisa escondeu a faca.
+
+Narrador: O caso é dado para outro detetive.
+
+Narrador: Mina perde credibilidade.
+
+Narrador: Marisa não era a assassina.
+
+=> END
