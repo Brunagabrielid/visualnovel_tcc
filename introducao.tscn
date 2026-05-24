@@ -1,0 +1,35 @@
+[gd_scene format=3 uid="uid://bxukbw20ci086"]
+
+[ext_resource type="Script" uid="uid://cw03syrurob0o" path="res://main.gd" id="1_s7n2p"]
+[ext_resource type="Texture2D" uid="uid://brfi5m5h3xdxj" path="res://backgrounds/mansao_aberturateste.png" id="2_f01ky"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_aa2vk"]
+load_path = "res://.godot/imported/minanormal.png-6a206c96cfa4dcb1d20b5a1a2014a0b5.ctex"
+
+[node name="Control" type="Control" unique_id=888249602]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_s7n2p")
+
+[node name="BG_imag" type="TextureRect" parent="." unique_id=1654775248]
+layout_mode = 0
+offset_right = 1280.0
+offset_bottom = 720.0
+texture = ExtResource("2_f01ky")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="Personagem" type="TextureRect" parent="." unique_id=1653088272]
+layout_mode = 0
+offset_left = 100.0
+offset_top = 500.0
+offset_right = 800.0
+offset_bottom = 1700.0
+rotation = 3.0770154
+texture = SubResource("CompressedTexture2D_aa2vk")
+expand_mode = 1
+stretch_mode = 5
